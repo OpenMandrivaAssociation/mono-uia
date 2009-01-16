@@ -1,6 +1,6 @@
 Name:     	mono-uia
 Version:	0.9
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	MIT or X11
 BuildArch:      noarch
 URL:		http://www.mono-project.com/Accessibility
