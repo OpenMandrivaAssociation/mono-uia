@@ -4,7 +4,7 @@ Release:	%mkrel 1
 License:	MIT or X11
 BuildArch:      noarch
 URL:		http://www.mono-project.com/Accessibility
-Source0:	ftp://ftp.novell.com/pub/mono/uia/%{name}-%{version}.tar.bz2
+Source0:	ftp://ftp.novell.com/pub/mono/uia/%{version}/%{name}-%{version}.tar.bz2
 BuildRequires:	mono-devel
 Summary:	Implementation of Microsoft UI Automation (UIA) assemblies
 Group:		Development/Other
