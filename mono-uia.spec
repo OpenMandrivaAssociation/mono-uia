@@ -1,5 +1,5 @@
 Name:     	mono-uia
-Version:	0.9.1
+Version:	1.0
 Release:	%mkrel 1
 License:	MIT or X11
 BuildArch:      noarch
