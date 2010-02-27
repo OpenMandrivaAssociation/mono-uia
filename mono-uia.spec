@@ -34,6 +34,9 @@ rm -rf %buildroot
 
 %files
 %defattr(-, root, root)
+%if %mdkversion < 201010
+%_prefix/lib/mono/2.0/WindowsBase.dll
+%endif
 %_prefix/lib/mono/accessibility
 %_prefix/lib/mono/gac/*
 %_datadir/pkgconfig/*.pc
