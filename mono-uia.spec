@@ -6,6 +6,8 @@ BuildArch:      noarch
 URL:		http://www.mono-project.com/Accessibility
 Source0:	http://mono-a11y.org/releases/%{version}/sources/%{name}-%{version}.tar.bz2
 BuildRequires:	mono-devel
+BuildRequires:	gtk-sharp2 >= 2.12.8
+BuildRequires:	glib-sharp2 >= 2.12.8
 Summary:	Implementation of Microsoft UI Automation (UIA) assemblies
 Group:		Development/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
