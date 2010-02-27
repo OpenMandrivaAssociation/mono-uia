@@ -1,5 +1,5 @@
 Name:     	mono-uia
-Version:	1.0
+Version:	2.0
 Release:	%mkrel 1
 License:	MIT or X11
 BuildArch:      noarch
@@ -32,7 +32,6 @@ rm -rf %buildroot
 
 %files
 %defattr(-, root, root)
-%_prefix/lib/mono/2.0/WindowsBase.dll
 %_prefix/lib/mono/accessibility
 %_prefix/lib/mono/gac/*
 %_datadir/pkgconfig/*.pc
