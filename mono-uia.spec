@@ -5,6 +5,7 @@ License:	MIT or X11
 BuildArch:      noarch
 URL:		http://www.mono-project.com/Accessibility
 Source0:	http://mono-a11y.org/releases/%{version}/sources/%{name}-%{version}.tar.bz2
+Patch0:		http://github.com/mono/uia2atk/commit/326220d51c7fb96151802576d978399693d6bae4.patch
 BuildRequires:	mono-devel
 BuildRequires:	gtk-sharp2 >= 2.12.8
 BuildRequires:	glib-sharp2 >= 2.12.8
@@ -17,8 +18,10 @@ Implementation of Microsoft UI Automation (UIA) assemblies.
 	  
 %prep
 %setup -q
+%patch0 -p2 -b .mono28
 
 %build
+autoreconf -fi -I .
 %configure2_5x
 make
 
