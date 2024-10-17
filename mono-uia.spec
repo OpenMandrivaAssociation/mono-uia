@@ -3,7 +3,7 @@ Version:	2.1
 Release:	%mkrel 2
 License:	MIT or X11
 BuildArch:      noarch
-URL:		http://www.mono-project.com/Accessibility
+URL:		https://www.mono-project.com/Accessibility
 Source0:	http://mono-a11y.org/releases/%{version}/sources/%{name}-%{version}.tar.bz2
 Patch0:		http://github.com/mono/uia2atk/commit/326220d51c7fb96151802576d978399693d6bae4.patch
 BuildRequires:	mono-devel
